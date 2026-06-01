@@ -1,20 +1,24 @@
-# Raw / restricted data
+# Restricted raw / processed data
 data/raw/
 data/processed/
 data/external/
 
-# SPSS / data files
+# SPSS / statistical data files
 *.sav
 *.dta
-*.csv
-*.xlsx
-*.xls
+*.por
+*.sas7bdat
 *.parquet
 *.pkl
 
-# Outputs
-outputs/figures/
-outputs/tables/
+# Excel / CSV source data
+*.csv
+*.xlsx
+*.xls
+
+# Allow aggregated output tables only
+!outputs/tables/*.csv
+!outputs/tables/*.xlsx
 
 # Python
 __pycache__/
@@ -23,9 +27,13 @@ __pycache__/
 .venv/
 venv/
 
+# Jupyter
+.jupyter/
+.ipynb_checkpoints/
+
 # OS
 .DS_Store
 Thumbs.db
 
-# PowerPoint temporary files
+# PowerPoint temp files
 ~$*.pptx
