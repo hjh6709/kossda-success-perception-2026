@@ -1,0 +1,31 @@
+# Raw / restricted data
+data/raw/
+data/processed/
+data/external/
+
+# SPSS / data files
+*.sav
+*.dta
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+
+# Outputs
+outputs/figures/
+outputs/tables/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PowerPoint temporary files
+~$*.pptx
