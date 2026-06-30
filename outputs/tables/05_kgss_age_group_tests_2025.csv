@@ -1,0 +1,5 @@
+﻿variable,label,test,valid_n,chi2,df,p_value,cramers_v,interpretation,p_value_display
+SUCDEFRT,열심히 일,chi-square independence: age_group x important,1208,6.7429880976689995,4,0.15010965621215963,0.07471240719894583,연령대별 차이 뚜렷하지 않음,0.150
+SUCDWLTH,부유한 집안,chi-square independence: age_group x important,1207,21.801263692312336,4,0.0002195258968900143,0.13439626483001219,연령대별 차이 확인,<0.001
+SUCDPAED,부모 교육,chi-square independence: age_group x important,1208,3.2783176937226446,4,0.5123749493116395,0.05209452130918042,연령대별 차이 뚜렷하지 않음,0.512
+SUCDKNOW,좋은 사람을 아는 것,chi-square independence: age_group x important,1208,5.487548485800987,4,0.24082614774213218,0.06739935153681821,연령대별 차이 뚜렷하지 않음,0.241

@@ -37,3 +37,4 @@ Thumbs.db
 
 # PowerPoint temp files
 ~$*.pptx
+*.pptx.inspect.ndjson
